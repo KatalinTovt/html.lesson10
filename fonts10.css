@@ -1,0 +1,8 @@
+@font-face{
+  font-family: 'regular';
+  src: url(./fonts/Libre_Franklin/static/LibreFranklin-Regular.ttf);
+}
+@font-face{
+  font-family: 'bold';
+  src: url(./fonts/Libre_Franklin/static/LibreFranklin-SemiBold.ttf);
+}

@@ -1,0 +1,374 @@
+@import url(./fonts10.css);
+.logo{
+  font-family: 'bold';
+  font-size: 15px;
+}
+
+
+.navigation{
+  font-family: 'regular';
+}
+.header{
+  width: 100%;
+  height: 600px;
+  background-image: url(./img/bg.png);
+}
+.header-img-shadow{
+    width: 100%;
+    height: 600px;
+    background: #c66c4956;
+    position: absolute;
+    z-index: 2;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+nav{
+  width: 100%;
+}
+.navbar-collapse{
+  flex-grow: 0;
+}
+.decoration{
+ font-size: 14px;
+}
+.h-header{
+font-size: 40px;
+font-family: 'regular';
+margin-top: 100px;
+}
+.text-header{
+  font-size: 19px;
+  font-family: 'regular';
+}
+.div-header{
+
+}
+
+.about-block{
+  padding-top: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 544px;
+  box-sizing: border-box;
+}
+.about-block-header{
+  font-family: 'regular';
+  font-size: 24px;
+}
+.about-block-first, .about-block-second{
+font-family: 'regular';
+font-size: 17px;
+}
+.skills-block{
+  margin: 0;
+  padding-left: 200px;
+  padding-right: 50px;
+  width: 100%;
+  padding-top: 30px;
+  font-family: 'regular';
+  height: 693px;
+  background-color: #FFFAF2;
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  
+}
+.skills-img img{
+  width: 350px;
+  height: 340px;
+}
+.skills-diag{
+  width: 445px;
+  height: 25px;
+}
+.skills-header{
+  font-family: 'regular';
+  font-size: 24px;
+  height: 120px;
+}
+.footer-header{
+  font-family: 'regular';
+  font-size: 24px;
+padding-top: 120px;
+margin-bottom: 50px;
+}
+.color-one{
+background-color: #C66C49;
+}
+.color-two{
+background-color: #F5D6AB
+}
+.skills-bold{
+  font-family: 'bold';
+  font-size: 15px;
+  width: 100px;
+
+}
+.second-flex{
+  height: 50px;
+}
+.second-flex-head{
+  height: 50px;
+  margin-bottom: 20px;
+}
+.skills-text{
+  font-family: 'regular';
+  font-size: 16px;
+}
+.skills-second{
+  height: 340px;
+}
+.portfolio-header{
+  font-family: 'regular';
+  font-size: 24px;
+}
+.portfolio-block{
+  height: 750px;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+font-family: 'regular';
+}
+.portfolio-second {
+  height: 410px;
+  width: 650px;
+}
+.portfolio-img-first img,.portfolio-img-first{
+  height: 144px;
+  width: 350px;
+}
+.portfolio-img-second img , .portfolio-img-second{
+  height: 233px;
+  width: 255px;
+}
+
+.portfolio-img-third img , .portfolio-img-third{
+  height: 233px;
+  width: 350px;
+}
+.portfolio-img-fours img , .portfolio-img-fours {
+  height: 150px;
+  width: 259px;
+}
+.portfolio-first-text{
+  font-family: 'regular';
+  font-size: 15px;
+}
+.footer-block{
+  width: 100%;
+  height: 500px;
+  background-color: #FFFAF2;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 30px;
+font-family: 'regular';
+}
+.footer-second{
+  height: 60px;
+  font-size: 16px;
+}
+.footer-first{
+  height: 150px;
+  font-size: 16px;
+}
+.first-one div , .first-two div{
+margin-bottom: 5px;
+}
+@media screen and (max-width: 1240px){
+  .header{
+    height: 375px;
+  }
+  
+  .header-img-shadow, .about-block , .skills-block{
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 375px;
+  }
+  .skills-diag{
+    width: 205px;
+    height: 18px;
+  }
+  .skills-block{
+    height: 617px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skills-header{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .portfolio-header{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    
+  }
+  .portfolio-second-header{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .portfolio-first-text{
+    font-size: 12px;
+  }
+  .skills-second{
+    width: 100%;
+    margin: auto;
+  }
+ .skills-text{
+    font-size: 13px;
+  }
+  .skills-bold{
+    font-size: 13px;
+    width: 70px;
+    font-family: 'bold';
+  }
+  .about-block{
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 420px;
+    font-family: 'regular';
+  }
+  .portfolio-block{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 430px;
+  }
+  .footer-block{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 370px;
+  }
+  .about-block-header{
+    font-family: 'bold';
+    font-size: 22px;
+padding-bottom: 20px;
+text-align: center;
+  }
+  .footer-header{
+    font-family: 'bold';
+    font-size: 22px;
+padding-bottom: 20px;
+text-align: center;
+margin-bottom: 20px;
+padding-top: 10px;
+
+  }
+  .about-block-first, .about-block-second{
+  font-family: 'regular';
+  font-size: 12px;
+  }
+  .first{
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 18px;
+  }
+  .text-header{
+    font-size: 15px;
+    font-family: 'regular';
+  }
+  .h-header{
+    font-size: 30px;
+    font-family: 'regular';
+    margin-top: 60px;
+    }
+    .decoration{
+      font-size: 13px;
+      display: flex;
+    justify-content: center;
+     }
+     .skills-img img{
+  width: 224px;
+  height: 218px;
+}
+.skills-img{
+  align-items: center;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 15px;
+}
+.portfolio-img-first img,.portfolio-img-first{
+  height: 70px;
+  width: 150px;
+}
+.portfolio-img-second img , .portfolio-img-second{
+  height: 115px;
+  width: 113px;
+}
+
+.portfolio-img-third img , .portfolio-img-third{
+  height: 113px;
+  width: 150px;
+}
+.portfolio-img-fours img , .portfolio-img-fours {
+  height: 70px;
+  width: 113px;
+}
+.portfolio-second {
+  height: 200px;
+  width: 170px;
+  padding-left: 30px;
+}
+.portfolio-third {
+  height: 200px;
+  width: 170px;
+  padding-left: 50px;
+}
+.portfolio-first-text{
+  margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 768px){
+  .header-img-shadow, .about-block .skills-block{
+    padding-left: 31px;
+    padding-right: 31px;
+    height: 375px;
+    
+  }
+  .skills-block{
+    height: 700px;
+    box-sizing: border-box;
+  }
+  .about-block{
+    padding-top: 50px;
+  }
+  .about-block-header{
+    font-family: 'bold';
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .about-block-first, .about-block-second{
+  font-family: 'regular';
+  font-size: 13px;
+  }
+  .first{
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 18px;
+  }
+  .decoration{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+   }
+  .text-header{
+    font-size: 13px;
+    font-family: 'regular';
+    text-align: center;
+  }
+  .h-header{
+    font-size: 20px;
+    font-family: 'regular';
+    margin-top: 60px;
+    text-align: center;
+    }
+
+}
